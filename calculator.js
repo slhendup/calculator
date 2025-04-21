@@ -5,6 +5,7 @@ let currentInput = "0";
 let previousInput = "0";
 let operator = "";
 let justEvaluated = false;
+//this array is added so we can access the calculator through our keyboard.
 const acceptKeys = [
   "1",
   "2",
