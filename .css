@@ -1,0 +1,31 @@
+.wrapper {
+    position: relative;
+  }
+  
+  .box1 {
+    position: relative;
+    z-index: 1;
+    border: solid;
+    height: 100px;
+    margin: 50px;
+  }
+  
+  .box2 {
+    position: absolute;
+    z-index: 2;
+    background: pink;
+    width: 20%;
+    left: 65%;
+    top: -25px;
+    height: 120px;
+    opacity: 0.9;
+  }
+  
+  .box3 {
+    position: absolute;
+    z-index: 3;
+    background: cyan;
+    width: 70%;
+    left: 40px;
+    top: 60px;
+  }
